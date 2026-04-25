@@ -1,0 +1,1 @@
+fetch('/weather/current').then(response => response.json()).then(data => console.log(data));
